@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <style>
+    .button {
+      position: center;
+      margin-left:70px;
+      width: 208px;
+      height: 36px;
+      border-radius: 3px;
+      background-color: #ff3600;
+      border: solid 3px transparent;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all .2s ease-in-out;
+    }
+    .button:hover {
+      background-color: #080808;
+      border-color: #080808;
+      transition: all 1s ease-in-out;
+    }
+
+    input[type=text] {
+      background-color: #fff;
+      border-radius: 9px;
+      width: 40%;
+      padding: 10px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: block;
+    }
+
+    .ini{
+        color: {{ warna }};
+    }
+
+
+    </style>
+
+    <title>{{ judul }}</title>
+
+</head>
+<body style="font-family: 'Open Sans', sans-serif !important; font-weight: 600;">
+    <div style="padding-left: 0px; padding-top:150px;margin-left:630px;">
+    <h1>Web {{ judul }}</h1>
+    <h2 style="margin-left: 46px;">Code Warna({{ warna }})</h2>
+    <h4 style="margin-left: 16px;">Isi dengan angka untuk {{ judul }}</h4>
+    {% if inputan %}
+        <p class="ini" style="font-size:40px;margin-left:125px;">{{ inputan }} CM</p>
+    {% endif %}
+    <form method="post">
+        {% csrf_token %}
+        <label for="inputanAngka">Tinggi Tabung :</label><br/>
+        <input type="text" id="inputanAngka" name="inputanAngka" autocomplete="off"><br><br/>
+        <button class="button" type="submit">UBAH</button>
+    </form>
+    </div>
+
+</body>

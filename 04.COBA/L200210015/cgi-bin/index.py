@@ -1,0 +1,49 @@
+htm = f"""
+<!DOCTYPE html>
+ 
+<head>
+<title>CGIHTTPRequestHandler</title>
+</head>
+<body>
+<h1>Data Diri</h1>
+               
+<table>
+<table border="0" cellpadding="8">
+                      
+         
+<tr>
+<td rowspan="9">
+<img src='/DSC00478.JPG' title= "Ini foto saya" width="200" height="200"></td>
+</tr>
+<tr>
+<td>Nama</td>
+<td>Faza Rizqy Septin Rezsuwandi</td>
+</tr>
+                       
+<tr>
+<td>Alamat Tinggal</td>
+<td>Sekuro RT 31 RW 07 Mlonggo Jepara</td>
+</tr>
+                       
+<tr>
+<td>Tempat tanggal lahir</td>
+<td>Jepara, 10 September 2003</td>
+</tr>
+           
+<tr>
+<td>Tempat wisata favorit</td>
+<td>Air terjun kedung ombo</td>
+</tr>
+                       
+<tr>
+<td>Motto</td>
+<td>Lebih baik berbuat baik</td>
+</tr>
+                                                             
+                       
+</table>
+</body>
+</html>
+"""
+ 
+print(htm)
