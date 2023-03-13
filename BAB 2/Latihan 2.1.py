@@ -1,13 +1,24 @@
-import ModulPythonPertamaku
+import ModulePythonPertamaku
 
-def ucapkanSalam():
-    print("Assalamualaikum!")
+ModulePythonPertamaku.ucapkanSalam()
+print(ModulePythonPertamaku.kuadratkan(5))
+print(ModulePythonPertamaku.buah)
 
-def kuadratkan(x):
-    return x*x
+print('------------------------------------------')
 
-buah ='mangga'
-daftarBaju= ['batik','loreng','resmi berdasi']
-jumlahBaju= len(daftarBaju)
+import ModulePythonPertamaku as mpp
+mpp.ucapkanSalam()
+print(mpp.daftarBaju)
+print(mpp.jumlahBaju)
+
+print('------------------------------------------')
+
+from ModulePythonPertamaku import kuadratkan, daftarBaju
+print(kuadratkan(6))
+print(daftarBaju)
+
+print('------------------------------------------')
 
 
+from ModulePythonPertamaku import ucapkanSalam as ucap
+ucap()
