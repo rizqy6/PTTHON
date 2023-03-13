@@ -1,5 +1,4 @@
-# import LatOOP3
-import LatOOP3
+from LatOOP3 import Manusia
 
 class Mahasiswa(Manusia):
     """class mahasiswa yang dibangun dari class manusia"""

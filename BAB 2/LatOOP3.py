@@ -19,4 +19,3 @@ class Manusia(object):
 # p1 = Manusaia("rizqy")
 # p1.ucapkanSalam()
 
-    
