@@ -16,6 +16,6 @@ class Manusia(object):
     def mengalihkanDenganDua(self,n):
         return n*2
 
-# p1 = Manusaia("rizqy")
-# p1.ucapkanSalam()
+p1 = Manusia('rizqy')
+p1.ucapkanSalam()
 

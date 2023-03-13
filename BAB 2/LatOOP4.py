@@ -23,12 +23,17 @@ class Mahasiswa(Manusia):
         return self.uangSaku
     def makan(self,s):
         print('Saya baru saja makan',s,"sambil belajar")
-    self.keadaan = 'kenyang'
+        self.keadaan = 'kenyang'
 
-m1 = Mahasiswa("rizqy", L200210015, "Jepara", 100000000)
+m1 = Mahasiswa("rizqy", 'L200210015', "Jepara", 100000000)
+
+m2 = Mahasiswa("Andi", 'L200210016', "Magelang", 200000000)
+
+m3 = Mahasiswa("Sra", 'L200210017', "Yogyakarta", 300000000)
+
 print(m1.ambilNama())
-print(m1.ambilNIM())
-print(m1.ucapkanSalam)
-print(m1.makan('pecel'))
-print(m1.keadaan)
-print(m1)
+print(m2.ambilNIM())
+m3.ucapkanSalam
+m3.makan('pecel')
+print(m3.keadaan)
+print(m3)
