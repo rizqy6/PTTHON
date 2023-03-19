@@ -24,13 +24,9 @@ class Mahasiswa(Manusia):
     def makan(self,s):
         print('Saya baru saja makan',s,"sambil belajar")
         self.keadaan = 'kenyang'
-
 m1 = Mahasiswa("rizqy", 'L200210015', "Jepara", 100000000)
-
 m2 = Mahasiswa("Andi", 'L200210016', "Magelang", 200000000)
-
 m3 = Mahasiswa("Sra", 'L200210017', "Yogyakarta", 300000000)
-
 print(m1.ambilNama())
 print(m2.ambilNIM())
 m3.ucapkanSalam

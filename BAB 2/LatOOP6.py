@@ -1,11 +1,7 @@
 from LatOOP4 import m1, m2, m3
-
-
 def __str__(self):
     return self.nama
-
 print('----------------------------------')
-
 daftar = [m1,m2,m3]
 for i in daftar:
     print(i.NIM)
