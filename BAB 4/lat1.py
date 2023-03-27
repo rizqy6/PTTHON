@@ -39,8 +39,41 @@ for i in Daftar:
     if i.kotaTinggal == target:
         print(i.nama+ ' tinggal di '+target)
 
+def cariTerkecil(kumpulan):
+    n = len(kumpulan)
+    terkecil = kumpulan[0]
+    for i in range(1,n):
+        if kumpulan[i] < terkecil:
+            terkecil = kumpulan[i]
+    return terkecil
+
+def binSe(kumpulan, target):
+    low = 0
+    high = len(kumpulan) - 1
+
+    while low <=high:
+        mid  = (high + low) //2
+        if kumpulan[mid] < target:
+            return True
+        elif target < kumpulan[mid]:
+            high = mid -1
+        else:
+            low = mid + 1
+    return False
+
 
 A = [10, 51,2,18,4,31,5,23,64,29]
-print(cariLurus(A, 31))
-print(cariLurus(A, 8))
+print('------------------------------------------------------------')
+
+print(cariLurus(A, 5))
+
+print('------------------------------------------------------------')
+
+B = [10, 51,2,18,4,31,5]
+print(cariTerkecil(B))
+
+print('------------------------------------------------------------')
+
+C = [10, 51,2,18,4,31,5]
+print(binSe(C, 51))
 
