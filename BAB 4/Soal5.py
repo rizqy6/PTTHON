@@ -54,3 +54,4 @@ a.next = node (56)
 a = a.next
 menu.cari(20)
 menu.cari(31)
+print("----------------Oleh L200210054---------------------------")

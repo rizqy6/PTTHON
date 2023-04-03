@@ -32,3 +32,4 @@ kedua menggunakan barisan geometri Sn = 2^n
         Tebakan ke-5 : 68(dari 64 + 4) dijawab "Lebih dari itu"
         Tebakan ke-6 : 70(dari 68 + 2) dijawab "TEPAT"
         """)
+print("----------------Oleh L200210054---------------------------")

@@ -40,3 +40,4 @@ def binSeLagi(kumpulan, target):
             low += 1
     return a
 print(binSeLagi(Listt, 6))
+print("----------------Oleh L200210054---------------------------")

@@ -23,13 +23,11 @@ c7 = MhsTIF('Galuh',5,'Wonogiri',245000)
 c8 = MhsTIF('Janto',23,'Klaten',245000)
 c9 = MhsTIF('Hasan',64,'Karanganyar',270000)
 c10 = MhsTIF('Khalid',29,'Purwodadi',265000)
-
 Daftar = [c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,c10]
-#Nomor 4
 def cariKurangDari250(list):
     target = 250000
     for i in Daftar:
         if i.ambilUangSaku() < target:
             print(i.ambilNama())
-
 print(cariKurangDari250(Daftar))
+print("----------------Oleh L200210054---------------------------")

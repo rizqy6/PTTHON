@@ -25,9 +25,7 @@ c9 = MhsTIF('Hasan',64,'Karanganyar',270000)
 c10 = MhsTIF('Khalid',29,'Purwodadi',265000)
 
 Daftar = [c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,c10]
-#Nomor 6
 List = [2,3,4,5,8,10,12,43,67,15]
-
 def binSe(kumpulan,target):
     low = 0
     high = len(kumpulan) - 1
@@ -42,5 +40,5 @@ def binSe(kumpulan,target):
         else:
             low = mid + 1
     return False
-
 print(binSe(List, 4))
+print("----------------Oleh L200210054---------------------------")

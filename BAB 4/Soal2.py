@@ -26,7 +26,6 @@ c10 = MhsTIF('Khalid',29,'Purwodadi',265000)
 
 Daftar = [c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,c10]
 
-#Nomor 2
 def cariTerkecil(list):
     terkecil = c0.ambilUangSaku()
     for i in Daftar:
@@ -34,3 +33,4 @@ def cariTerkecil(list):
             terkecil = i.ambilUangSaku()
     return terkecil
 print(cariTerkecil(Daftar))
+print("----------------Oleh L200210054---------------------------")
