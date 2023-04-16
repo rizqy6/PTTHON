@@ -37,4 +37,3 @@ def median_of_three(A, low, high):
         return c, high - 1
     return a, low
 
-daftar = [13, 5, 9, 135, 17, 123, 32]

@@ -36,3 +36,4 @@ def sort_sub_list(the_list, start, end):
 
 def merge_sort(the_list):
     return _merge_sort((0, len(the_list) - 1), the_list)
+

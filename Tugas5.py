@@ -26,18 +26,17 @@ def peak_index_mountain_array(arr):
             high = mid - 1
     return -1
     
-# Program untuk mencari kemunculan pertama suatu elemen
 arr1 = [1, 2, 3, 3, 4, 4, 4, 5]
 target1 = 4
-print(first_occurrence(arr1, target1))  # Output: 4
+print(first_occurrence(arr1, target1)) 
 
 arr2 = [1, 1, 2, 3, 5, 8]
 target2 = 1
-print(first_occurrence(arr2, target2))  # Output: 0
+print(first_occurrence(arr2, target2)) 
 
-# Program untuk mencari titik puncak mountain array
+
 arr3 = [0, 2, 4, 2, 0]
-print(peak_index_mountain_array(arr3))  # Output: 2
+print(peak_index_mountain_array(arr3)) 
 
 arr4 = [0, 5, 10, 20, 10, 2, 0]
-print(peak_index_mountain_array(arr4))  # Output: 3
+print(peak_index_mountain_array(arr4))  
