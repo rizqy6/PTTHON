@@ -25,12 +25,14 @@ data7 = PersonalData("William", 27, "Kuning Langsat")
 data8 = PersonalData("Sophia", 22, "Putih")
 data9 = PersonalData("James", 38, "Sawo Matang")
 data10 = PersonalData("Ava", 29, "Putih")
+data11 = PersonalData('sabillacantikeram', 10, 'sawokuninglangsatbersihsekali')
 
 # Mengakses data dari objek personal data
 data1.dataNama()
 data1.dataUmur()
 data1.dataWarnaKulit()
 
+data11.dataNama()
 data5.dataNama()
 data5.dataUmur()
 data5.dataWarnaKulit()
