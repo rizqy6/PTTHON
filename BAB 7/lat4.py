@@ -8,4 +8,4 @@ p = r'(\w+)</a></td>' + i + i + i + r'\s<td>([\d\.\w\/]+)</td>'
 cocok = re.findall(p, teks)
 cocok1 = [(i[0], float(i[1])) for i in cocok]
 print(cocok1)
-print('------------------oleh L200210054---------------')
+

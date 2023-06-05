@@ -8,4 +8,4 @@ p = r'\s(di\s\w+)'
 cocok = re.findall(p, teks)
 c.append(cocok)
 print(c)
-print('------------------oleh L200210054---------------')
+

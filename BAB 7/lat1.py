@@ -8,4 +8,3 @@ p = r'\s([Mm]e\w+)'
 cocok = re.findall(p, teks)
 a.append(cocok)
 print(a)
-print('------------------oleh L200210054---------------')
